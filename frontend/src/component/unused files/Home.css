@@ -1,0 +1,24 @@
+.home {
+    max-width: 1100px;
+    margin: 2% auto;
+    padding: 10px;
+    background-image:"demo/src/V-removebg-preview.png";
+    background-repeat: no-repeat;
+}
+.home{
+    min-height: 75vh;
+}
+
+.searchProducts select {
+    text-transform: capitalize;
+}
+.proCount{
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.proCount span{
+    color: green;
+    padding: 0 4px;
+    font-size: 20px;
+}

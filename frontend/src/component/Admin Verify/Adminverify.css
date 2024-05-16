@@ -1,0 +1,21 @@
+img{
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+table td,th{
+    padding: 5px 15px;
+}
+table tr:nth-child(7)
+{
+    background-color: red;
+}
+.adminVerifyBtn button{
+    background-color: black;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: white;
+    cursor: pointer;
+}

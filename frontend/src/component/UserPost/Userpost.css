@@ -1,0 +1,217 @@
+.userpost {
+    max-width: 1200px;
+    margin: 2% auto;
+    padding: 10px 30px;
+}
+
+
+
+.userpostform {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.userpostform .form {
+    margin: auto;
+    width: fit-content;
+
+}
+
+.userpostform h1 {
+    margin-bottom: 30px;
+}
+
+.userpostform form label {
+    width: 150px;
+    max-width: 300px;
+    display: inline-block;
+    text-align: start;
+    font-size: 16px;
+}
+
+.userpostform form input,
+.userpostform select {
+    width: 400px;
+    height: 40px;
+}
+
+.userpostform form button {
+    background-color: #27AE60;
+    padding: 10px 20px;
+    width: 200px;
+    border: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+}
+
+.formBtn {
+    margin-top: 10px;
+}
+
+.userposttable {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.userposttable table {
+    background-color: gray;
+    width: 100%;
+
+}
+
+.userposttable table td,
+th {
+    padding: 0;
+    font-size: 15px;
+    height: auto;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.userposttable th {
+    text-transform: uppercase;
+}
+
+.userposttable .refresh {
+    font-size: 23px;
+    border: none;
+    background-color: transparent;
+    transition: all 0.2s linear;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.userposttable .refresh:hover {
+    transform: rotateZ(70deg);
+}
+
+.userEntry button:hover {
+    background-color: black;
+    color: white;
+}
+
+.userEntry button {
+    border: 1px solid black;
+    transition: all 0.5s linear;
+}
+
+.houseArea {
+    display: flex;
+}
+
+.houseArea textarea {
+    width: 400px;
+    height: 100px;
+}
+
+.userpostform form div {
+    margin: 20px 0;
+}
+
+.userpost .userpostBtn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+}
+
+.userpost .userpostBtn:hover {
+    border: 1px solid black;
+}
+
+
+
+
+.userposttable table{
+    text-align: center;
+    background-color: red;
+}
+.userposttable table thead td{
+    padding: 15px 0;
+    background-color: black;
+    color: white;
+}
+
+
+
+.userEntry .saleButn{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.userEntry .saleButn:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+/* 
+
+
+.userpostform form div:nth-child(5){
+    display: flex;
+    justify-content: center;
+}
+.saleButn{
+    font-size: 15px;
+    background-color: black;
+}
+.userposttable table td,th{
+    padding: 10px 20px;
+    max-width: 500px;
+    background-color: greenyellow;
+}
+.userposttable table thead{
+    background-color: goldenrod;
+}
+.userposttable table td:nth-child(4){
+   
+    overflow: auto;
+}
+.userposttable table img{
+    width: 130px;
+    height: 100px;
+    object-fit: fill;
+    border-radius: 3px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.sendmessage{
+    position: fixed;
+    top: 3%;
+    left: 0%;
+    background-color: greenyellow;
+    color: black;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 17px;
+    padding: 10px;
+}
+.userpostform{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 16px 0;
+}
+.userpostform h1{
+    color: red;
+    font-size: 18px;
+} */

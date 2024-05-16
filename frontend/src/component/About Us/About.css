@@ -1,0 +1,142 @@
+.about {
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    /* background-color: ; */
+    /* color: antiquewhite; */
+    padding: 30px;
+}
+
+.header {
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.para {
+    text-align: left;
+    font-size: 17px;
+    text-align: justify;
+    padding: 25px 25px;
+    margin: 10px 10px;
+}
+
+.contact {
+    margin-top: 0px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-evenly;
+    padding: 70px 0;
+}
+
+.quick-link {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.quicklink-item {
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.quicklink-item:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+
+.contact-items:hover {
+    color: red;
+}
+
+.socialmedia {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* .icons-item {
+    height: 40px;
+    width: 50px;
+    margin: 10px;
+    background-color: antiquewhite;
+} */
+
+/* .icons-item:hover {
+    opacity: 0.5;
+    transform: scaleX(0.5);
+    transform: rotate(180deg);
+
+} */
+
+h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.contact-details ul li,
+.contact-details ul li a {
+    color: white;
+    opacity: 1;
+}
+
+.contact-details ul li span {
+    margin-right: 10px;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    width: 90px;
+    display: inline-block;
+}
+
+.contact-details ul li:last-child {
+    display: flex;
+}
+
+.contact-details ul {
+    margin-top: 10px;
+}
+
+.quick-link a {
+    font-size: 17px;
+    line-height: 20px;
+    text-align: start;
+    color: white;
+    opacity: 1;
+}
+.icons .socialIcon{
+    color: white;
+    font-size: 20px;
+    opacity: 1;
+    transition: all 0.5s linear;
+}
+.socialmedia h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.socialmedia div{
+    display: flex;
+   align-items: center;
+    justify-content: end;
+}
+
+.icons-item a:hover .socialIcon {
+
+    transform: scale(1.7);
+    
+}

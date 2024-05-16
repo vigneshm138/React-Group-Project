@@ -1,0 +1,126 @@
+.products-box {
+    width: 260px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #8AAAE5;
+    border-radius: 5px;
+    transition: all 0.4s linear;
+}
+
+.products-box:hover {
+    box-shadow: rgba(98, 169, 190, 0.582) 0px 10px 36px 0px, rgba(25, 196, 202, 0.637) 0px 0px 0px 1px;
+}
+.product-img{
+    width: 100%;
+}
+.products-box img {
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.products-details p {
+    display: flex;
+    padding: 5px 0 0 0;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.products-details {
+    height: 100px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.products-details span {
+    margin-right: 10px;
+    width: 90px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 800;
+    opacity: 0.7;
+}
+
+.products-contact {
+    padding: 0 0 10px 0;
+}
+
+.products-contact button {
+    font-size: 13px;
+    color: black;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #f9e795;
+    padding: 9px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.products-contact button:hover {
+    background-color: #f9e795;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.searchProducts {
+    height: 40px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchProducts select {
+    margin-right: 10px;
+    width: 200px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+
+
+.searchProducts button {
+    width: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #8AAAE5;
+    border-radius: 5px;
+    color: #8AAAE5;
+    transition: all 0.4s linear;
+}
+
+.searchProducts button:hover {
+    background-color: #8AAAE5;
+    color: white;
+}
+
+.notproducts {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    animation: play 0.5s infinite;
+    transition: all 1s linear;
+}
+
+@keyframes play {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+}

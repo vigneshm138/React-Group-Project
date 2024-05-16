@@ -1,0 +1,159 @@
+.box a {
+  opacity: 1;
+}
+.product-box {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 10px 5px;
+  width: 600px;
+  height: fit-content;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+}
+.product-img {
+  max-width: 300px;
+  height: 270px;
+}
+
+.product-details {
+  width: 100%;
+  /* max-width: 380px; */
+}
+.product-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.466);
+}
+
+.product-details h2 {
+  font-size: 17px;
+}
+
+.product-details p {
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.product-details .pd-fp {
+  font-weight: 600;
+}
+
+.product-details .pd-fp span {
+  opacity: 0.8;
+}
+
+.proName-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.proName-boxs {
+  display: flex;
+  gap: 20px;
+  background-color: rgba(221, 218, 218, 0.418);
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.product-box .proName-name p:first-child {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: -4px;
+}
+
+.product-box .proHighli h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #f1c40f;
+}
+
+.proHighli .ph-points {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  gap: 20px;
+  max-width: 350px;
+}
+
+.proHighli .ph-points p {
+  white-space: nowrap;
+}
+
+.ph-points .tickicon {
+  font-size: 20px;
+  margin-bottom: -5px;
+  color: #28b463;
+}
+
+.aboutProduct p {
+  text-align: justify;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 3px;
+  border-radius: 5px;
+  transition: all 0.5s linear;
+}
+
+.contact-owner {
+  text-align: center;
+}
+
+.contact-owner button {
+  padding: 3px 10px;
+  background-color: #28b463;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+.tickIcon{
+  color: #28b463;
+  font-size: 16px;
+  margin-bottom: -4px;
+}
+.proHighli ul{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 340px;
+  font-size: 14px;
+}
+.noLength{
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.noLength a{
+  color: blue;
+  font-size: 18px;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+.userpostform input{
+  padding-left: 10px;
+}

@@ -1,0 +1,79 @@
+.adminD {
+    margin: 30px 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.form-div {
+    width: fit-content;
+    margin: auto;
+}
+
+.form-div label {
+    max-width: 400px;
+    width: 160px;
+    display: inline-block;
+    text-align: start;
+}
+
+.form-div form div {
+    margin: 20px 0;
+}
+
+.form-div form div input,
+.form-div form div textarea,
+.form-div form div select {
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.form-div form div textarea {
+    height: 130px;
+    resize: none;
+}
+
+.form-div form button {
+    max-width: 400px;
+    width: 200px;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+}
+
+.admin {
+    max-width: 1300px;
+    margin: 5% auto;
+}
+
+.admin .adminOption button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    max-width: 200px;
+    width: 130px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.admin .adminOption button:hover {
+    border: 1px solid black;
+}
+
+.data-output {
+    margin-top: 40px;
+}
+.data-output a{
+    font-size: 16px;
+    text-transform: uppercase;
+}

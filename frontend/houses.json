@@ -1,0 +1,55 @@
+{
+    "house": [
+        {
+            "img": "https://i.pinimg.com/736x/93/e1/0e/93e10e06e28a305bbb1f9be260cec04f.jpg",
+            "price": "3 Cr",
+            "bhk": "3",
+            "type": "Villas house",
+            "location": "coimbatore",
+            "proname": "yogesh",
+            "sqft": "2000",
+            "highlights": [
+                "close to bus",
+                "close to atm",
+                "close to hospital"
+            ],
+            "aboutpro": "One of the finest property in Sembakkam is now available for sale. This is a 3 BHK Independent House. Make it yours now. The price of this Independent House is Rs 2.2 Cr. Other charges when you move into this property includ",
+            "aboutShow": false,
+            "id": "d86f"
+        },
+        {
+            "img": "https://wallpaperaccess.com/full/2315968.jpg",
+            "price": "30 Cr",
+            "bhk": "3",
+            "type": "Villas house",
+            "location": "coimbatore",
+            "proname": "yogesh",
+            "sqft": "2000",
+            "highlights": [
+                "close to bus",
+                "close to atm",
+                "close to hospital"
+            ],
+            "aboutpro": "One of the finest property in Sembakkam is now available for sale. This is a 3 BHK Independent House. Make it yours now. The price of this Independent House is Rs 2.2 Cr. Other charges when you move into this property includ",
+            "aboutShow": false,
+            "id": "ae94"
+        },
+        {
+            "img": "https://www.metroalive.com/images/720x580/9985-5.jpg",
+            "price": "30 Cr",
+            "bhk": "3",
+            "type": "Villas house",
+            "location": "coimbatore",
+            "proname": "yogesh",
+            "sqft": "2000",
+            "highlights": [
+                "close to bus",
+                "close to atm",
+                "close to hospital"
+            ],
+            "aboutpro": "One of thedent House is Rs 2.2 property includ",
+            "aboutShow": false,
+            "id": "3f0a"
+        }
+    ]
+}
